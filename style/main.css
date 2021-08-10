@@ -1,0 +1,71 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../assets/img/background.jpg');
+    background-size: cover;
+}
+.user {
+    display: flex;
+    padding: 5em 3em;
+    align-items: center;
+}
+.user-img {
+    height: 10em;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+.info-container{
+    padding: 1em 2em;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+}
+.name {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #009688;
+}
+.college {
+    margin: 0.5em 0 2em 0;
+    color: #707070;
+    font-size: 1.25em;
+}
+.links i {
+    font-size: 1.5em;
+    margin: 0 0.25em;
+    color: #707070;
+}
+.links i:hover{
+    cursor: pointer;
+    color: #272727;
+}
+.portfolio-title {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #272727;
+    font-weight: 600;
+}
+.portfolio-container {
+    padding: 0px 3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-card {
+    padding: 2em 4em;
+    color: #ffffff;
+}
+.portfolio-card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.portfolio-card-container a {
+    text-decoration: none;
+}
+.portfolio-item-name {
+    width: 15em;
+    text-align: center;
+    white-space: pre-wrap;
+}
+.portfolio-card-container {
+    padding: 2em;
+}
