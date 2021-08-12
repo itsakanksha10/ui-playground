@@ -1,0 +1,161 @@
+body{
+  margin: 0;
+}
+.icons{
+  padding: 0.5em 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.newimage{
+  padding-right: 2.5em;
+  padding-left: 2.5em;
+}
+.cartimg{
+  padding-right: 2.5em;
+  padding-left: 2.5em;    
+}
+.header{
+  background-color: #F0F4F8;
+}
+.contents{
+  margin:0;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+img.pic {
+  width: 30vw;
+  }
+.pe{
+      font-family: 'Roboto', sans-serif;
+      color: #748A9D;
+      font-weight: 600;
+      padding-left: 2em;
+  }
+.des-head{
+  font-family: 'Roboto', sans-serif;
+  color: #7BED8D; 
+  font-weight: 600; 
+}
+.ingridents label{
+  font-family: 'Roboto', sans-serif;
+  color: #748A9D;  
+}  
+.instructions{
+  font-family: 'Roboto', sans-serif;
+  color: #748A9D;  
+}
+.data{
+    font-family: 'Roboto', sans-serif;
+    color: #748A9D;   
+}
+.heading{
+    font-family: 'Roboto', sans-serif;
+    color: #7BED8D; 
+    font-weight: 600; 
+}
+.ingrident{
+    font-family: 'Roboto', sans-serif;
+    color: #7BED8D; 
+    font-weight: 600; 
+    padding: 0em 0em 1em 0em;  
+}
+.ingridents{
+    padding: 3em 1em;
+}
+.clock{
+  padding:0em 0em 0em 2em;
+}
+.cook{
+  padding:0em 0em 0em 2em;
+}
+.mid-header{
+  background-color: #F0F4F8;
+}
+.article1{
+  padding-left: 0.75em;
+  font-family: 'Roboto', sans-serif;
+  color: #748A9D; 
+}
+.midcontent{
+  padding-right: 6em;
+}
+.text-content {
+  padding: 1em 2em;
+}
+.text-body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightcontent-header{
+  background-color: #F0F4F8;
+  padding: 0.5em 2em;
+  border-radius: 8px;
+}
+td {
+  width:150px;
+  padding:5px;
+}
+.left-footericons button {
+  display: flex;
+  align-items: center;
+}
+.left-footericons button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.left-footericons {
+  display: flex;
+  align-items: center;
+}
+.share{
+  border-radius: 26px;
+  margin-right: 2em;
+  padding:  1em 4em;
+  border: none;
+  background-color: #F0F4F8;
+
+}
+.add-to-cart{
+  border-radius: 26px;
+  color: #FFFFFF;
+  background-color: #7BED8D;
+  align-items: center;
+  padding:  1em 4em;
+  border: none;
+
+}
+.btn-img{
+  padding-right: 1em;
+}
+.btn-text2{
+  font-family:'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+.right-content{
+  padding: 0em;
+  margin: 0px;
+}
+.btn-text1{
+  font-family:'Roboto', sans-serif;
+  color: #748A9D;
+  font-weight: 900;
+}
+.logo{
+  height: 2em;
+}
+.nav-img{
+  height: 1.5em;
+}
+.nav-img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
