@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #748A9D;
+}
+.full-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 5em;
+    background-color: #F0F4F8;
+}
+.nav-img {
+    height: 1.5em;
+}
+.nav-img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.logo {
+    height: 2em;
+}
+.food-container {
+    flex: 1;
+    display: flex;
+}
+.food-info {
+    flex: 1;
+    padding: 1em 3em;
+    display: flex;
+    flex-direction: column;
+}
+.info-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.food-name {
+    display: flex;
+    align-items: center;
+}
+.food-name-value {
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+.food-summary {
+    display: flex;
+    align-items: center;
+    background-color: #F0F4F8;
+    padding: 0.5em 3em;
+    border-radius: 8px;
+}
+.summary-item {
+    display: flex;
+    align-items: center;
+}
+.summary-icon {
+    margin-right: 0.75em;
+}
+.food-text {
+    flex: 1;
+    display: flex;
+    padding: 2em 0 1em 0;
+}
+.food-details {
+    height: 100%;
+    flex: 1;
+}
+.food-nutrition {
+    height: 100%;
+    flex: 1;
+}
+.ingredient-heading {
+    color: #7BED8D;
+    font-size: 1.5em;
+}
+.ing-item {
+    margin: 1em 0;
+}
+.instructions-head {
+    color: #7BED8D;
+    font-size: 1.5em;
+}
+.instructions-body {
+    white-space: pre-wrap;
+}
+.buttons {
+    display: flex;
+}
+.btn-img {
+    margin-right: 1em;
+}
+.share {
+    color: #748A9D;
+    font-weight: 900;
+    margin-right: 2.5em;
+}
+.add-to-cart {
+    background-color: #7BED8D;
+    color: #ffffff;
+    font-weight: 900;
+}
+.buttons button {
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 2em;
+    border-radius: 2em;
+}
+.buttons button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.nutrition-head {
+    color: #7BED8D;
+    font-size: 1.5em;
+    padding-left: 15px;
+}
+.food-nutrition td {
+    padding: 0.35em 15px;
+}
+.food-img{
+    background-image: url('../assets/img/food-bg.jpeg');
+    width: 30%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-bottom-left-radius: 20em;
+}
